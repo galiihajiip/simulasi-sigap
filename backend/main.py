@@ -51,7 +51,7 @@ def update_realtime_data():
                 "weather": "Rain"
             }
 
-        time.sleep(5)
+        time.sleep(2)
 
 @app.on_event("startup")
 def start_updater():
